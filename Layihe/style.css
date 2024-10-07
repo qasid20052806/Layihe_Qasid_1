@@ -1,0 +1,183 @@
+@media screen and (min-width:320px) and (max-width:991px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Genres {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MemberOfGenres {
+        border-radius: 20px;
+        background-color: #fff;
+        width: 50vw;
+        height: 40.5vw;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 3.5vw auto;
+
+        
+
+    }
+
+    .MemberOfGenres img {
+        height: 50%;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+    }
+
+    .MemberOfGenres h4,
+    p {
+        margin: 0; 
+        font-family: 'Roboto';
+    }
+
+    .MemberOfGenres h4 {
+        
+        height: 9vw;
+        font-size: 3.7vw;
+        margin-left: 4vw;
+    }
+
+    .MemberOfGenres p {
+        margin-left: 3.73vw;
+        font-size: 3.2vw;
+    }
+
+    .Head h1 {
+        font-size: 6.7vw;
+        font-family: 'Roboto slab';
+        padding-left: 9.04vw;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1279px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Genres {
+        padding-top: 6.5vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .MemberOfGenres {
+        border-radius: 2.1vw;
+        width: 27.7vw;
+        height: 24vw;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 1.2vw;
+
+    }
+
+    .MemberOfGenres img {
+        height: 50%;
+        object-fit: cover;
+        border-top-left-radius: 2.1vw;
+        border-top-right-radius: 2.1vw;
+        width: 100%;
+    }
+
+    .MemberOfGenres h4,
+    p {
+
+        margin: 0;
+        font-family: 'Roboto';
+    }
+
+    .MemberOfGenres h4 {
+        height: 6.2vw;
+        font-size: 2.2vw;
+        margin-left: 1.8vw;
+    }
+
+    .MemberOfGenres p {
+
+        margin-left: 1.7vw;
+        font-size: 1.7vw;
+
+    }
+
+    .Head h1 {
+        font-size: 3.7vw;
+        font-family: 'Roboto slab';
+        padding-left: 10.2vw;
+
+
+    }
+
+
+}
+
+@media only screen and (min-width:1279px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Genres {
+        padding-top: 6.5vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2.5%;
+
+    }
+
+    .MemberOfGenres {
+        border-radius: 2.1vw;
+        width: 27.7vw;
+        height: 24vw;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 1.2vw auto;
+
+    }
+
+    .MemberOfGenres img {
+        height: 50%;
+        object-fit: cover;
+        border-top-left-radius: 2.1vw;
+        border-top-right-radius: 2.1vw;
+        width: 100%;
+    }
+
+    .MemberOfGenres h4,
+    p {
+
+        margin: 0;
+        font-family: 'Roboto';
+    }
+
+    .MemberOfGenres h4 {
+        height: 6.2vw;
+        font-size: 2.2vw;
+        margin-left: 1.8vw;
+    }
+
+    .MemberOfGenres p {
+
+        margin-left: 1.7vw;
+        font-size: 1.7vw;
+
+    }
+
+    .Head h1 {
+        font-size: 3.7vw;
+        font-family: 'Roboto slab';
+        padding-left: 10.2vw;
+
+
+    }
+
+}
